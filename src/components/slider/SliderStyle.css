@@ -1,0 +1,37 @@
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+  }
+
+
+.SlideItem
+{
+  margin-left: 5%;
+  margin-right: 5%;
+  height: auto;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-image {
+
+  width: 75%;
+  height: 75%;
+  background: #D9D9D9;
+  border-radius: 30px;
+  transition: opacity 0.15s;
+}
+
+.scroll-image:hover {
+  opacity: 0.8;
+}
+
+.scroll-image:active {
+  opacity: 0.6;
+}

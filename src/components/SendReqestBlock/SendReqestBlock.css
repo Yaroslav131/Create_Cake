@@ -1,0 +1,82 @@
+.reqest-p-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reqest-p {
+    width: 1115px;
+    height: 96px;
+
+    align-items: center;
+}
+
+.grid-input-divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.grid-input-divs
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.grid-input-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4%;
+    width: 1300px;
+    margin-top: 10%;
+}
+
+.input-p-div {
+    display: flex;
+
+    align-items: center;
+}
+
+.user-input {
+    width: 776px;
+    height: 100px;
+    background: #FFFFFF;
+    border: 5px solid #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    padding-left: 30px;
+}
+
+.send-button {
+    width: 603px;
+    height: 100px;
+    background: #D9D9D9;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    border: none;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.grid-input-divs 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  margin-top: 10%;
+}
+
+.section-div {
+    margin-top: 5%;
+}

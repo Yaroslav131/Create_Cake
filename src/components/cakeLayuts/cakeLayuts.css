@@ -1,0 +1,29 @@
+.cake-constructor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    justify-content: center;
+
+}
+
+.first-layer-div {
+    background: #DADADA;
+    border-radius: 30px;
+    width: 378px;
+    height: 141px;
+}
+
+.second-layer-div {
+    background: #BEBEBE;
+    border-radius: 30px;
+    width: 552px;
+    height: 160px;
+}
+
+.third-layer-div {
+    background: #949292;
+    border-radius: 30px;
+    width: 713px;
+    height: 213px;
+}

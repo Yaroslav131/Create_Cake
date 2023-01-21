@@ -1,0 +1,165 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.footer-p
+{
+  color: white;
+  white-space: nowrap;
+}
+
+body {
+  font-family: "inter ", sans-serif;
+}
+footer {
+  background: black;
+  color: #ffffff;
+  position: relative;
+  height: 275px;
+  margin-top: auto;
+}
+
+.Div-logo {
+  width: 85px;
+  position: absolute;
+  left: 5%;
+  top: 40%;
+}
+
+.Logo {
+  font-weight: 700;
+  font-size: calc(12px + 100%);
+}
+
+.Div-about {
+  width: 90px;
+  position: absolute;
+  left: 17%;
+  top: 14%;
+}
+
+.About-us {
+  font-weight: 400;
+  font-size: calc(7px + 100%);
+}
+
+.Div-desserts {
+  width: 130px;
+  position: absolute;
+  left: 17%;
+  top: 31%;
+}
+
+.Desserts {
+  font-weight: 400;
+  font-size: calc(7px + 100%);
+}
+
+.Div-makecake {
+  width: 240px;
+  position: absolute;
+  left: 17%;
+  top: 49%;
+}
+
+.Make-acake {
+  font-weight: 400;
+  font-size: calc(7px + 100%);
+}
+
+.Div-contacts {
+  width: 130px;
+  position: absolute;
+  left: 17%;
+  top: 67%;
+}
+
+.Contacts {
+  font-weight: 400;
+  font-size: calc(7px + 100%);
+}
+
+.Facebook-logo {
+  width: 19px;
+  height: 28px;
+  position: absolute;
+  left: 42.5%;
+  top: 15.3%;
+}
+
+.Twitter-logo {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 46.1%;
+  top: 15.3%;
+}
+
+.Instagram-logo {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 50%;
+  top: 15.3%;
+}
+
+.Geo-logo {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 65.7%;
+  top: 12.3%;
+}
+
+.Phone-logo {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 66%;
+  top: 39.3%;
+}
+
+.Email-logo {
+  position: absolute;
+  left: 66%;
+  top: 66%;
+  width: 35px;
+  height: 27px;
+}
+
+.Div-city {
+  position: absolute;
+  width: 290px;
+  left: 69.5%;
+  top: 12.3%;
+}
+
+.City {
+  font-weight: 700;
+  font-size: calc(10px + 100%);
+}
+
+.Div-phone {
+  position: absolute;
+  width: 230px;
+  left: 69.5%;
+  top: 38%;
+}
+
+.Phone-number {
+  font-weight: 700;
+  font-size: calc(12px + 100%);
+}
+
+.Div-email {
+  position: absolute;
+  width: 325px;
+  left: 69.5%;
+  top: 64.7%;
+}
+
+.Email {
+  font-weight: 700;
+  font-size: calc(6px + 100%);
+}
