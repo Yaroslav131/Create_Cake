@@ -6,6 +6,8 @@ interface Iprops {
     description: string
     className: string
     headLine: string
+    name:string
+    onChange: (event: any)=>void
 }
 
 export default class Constructor extends React.Component<Iprops> {
@@ -20,7 +22,7 @@ export default class Constructor extends React.Component<Iprops> {
 
                 <p className="description-p">{this.props.description}</p>
 
-                <textarea className={this.props.className} name="inscription-input" cols={40} rows={5}></textarea>
+                <textarea onChange={this.props.onChange} className={this.props.className} name={this.props.name} cols={40} rows={5}></textarea>
             </div>
         )
     }

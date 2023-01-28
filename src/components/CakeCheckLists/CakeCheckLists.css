@@ -4,7 +4,12 @@
     justify-content: center;
 }
 
-.number-p {
+
+.number-button,
+.active-number-button {
+    border: none;
+    border-radius: 25%;
+    transition: opacity 0.15s;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -12,30 +17,37 @@
     line-height: 155px;
     margin-left: 6%;
     margin-right: 6%;
+    background-color: white;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
-.number-button
-{
-    margin-left: 6%;
-    margin-right: 6%;
-    border: none;
-border-radius: 25%;
-transition: opacity 0.15s;
-background-color: white;
-}
+.active-number-button {
 
-.number-button:hover
-{
+    background-color: rgb(108, 108, 108);
     opacity: 0.7;
 }
 
-.number-button:active
-{
+.number-button:hover {
+    opacity: 0.7;
+    background-color: rgb(228, 228, 228);
+}
+
+.number-button:active {
     opacity: 0.5;
 }
 
+.active-number-button:active {
+    opacity: 0.5;
+}
+
+
 .list-div {
     margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .checkbox-head-p {
